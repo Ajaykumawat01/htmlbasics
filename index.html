@@ -72,13 +72,13 @@
 
         <input type="text" id="1" required placeholder="Enter Name"> <br> <br>
 
-        Enter Number= <input type="number"> <br><br>
+        Enter Number= <input type="number" placeholder="Mobile Number"> <br><br>
 
-        Enter Email= <input type="email"> <br><br>
+        Enter Email= <input type="email" placeholder="Email address"> <br><br>
 
-        Enter password =<input type="password"> <br><br>
+        Enter password =<input type="password" placeholder="password"> <br><br>
 
-        Enter D_O_B= <input type="date" required> <br> <br>
+        Enter D_O_B= <input type="date" required>choose <br> <br>
 
         Aadhar image= <input type="file" name="" id=""> <br> <br>
 
@@ -103,21 +103,72 @@
 
         <input type="submit" value="login">
 
-
-
         </i>
         
-
-
-
     </form>
     <!-- th=heading,td=data,tr=table row -->
-     <table>
+     <table border="1">
         <thead>
             <tr>
                 <th>sno</th>
                 <th>name</th>
                 <th>fees</th>
+            </tr>
+            <tr>
+                <td>01</td>
+                <td>Ajay</td>
+                <td>5000</td>
+            </tr>
+            <tr>
+                <td>02</td>
+                <td>Deepak</td>
+                <td>5000</td>
+            </tr>
+            <tr>
+                <td>03</td>
+                <td>Sumit</td>
+                <td>5000</td>
+            </tr>
+            <tr>
+                <td>04</td>
+                <td>Gaurvendra</td>
+                <td>5000</td>
+
+            </tr>
+
+        </thead>
+     </table>
+     <br><br>
+
+     <!-- to merge the same data value of column is like= use rowspan -->
+
+     <table border="1">
+        <thead>
+            <tr>
+                <th>sno</th>
+                <th>name</th>
+                <th>fees</th>
+            </tr>
+            <tr>
+                <td>01</td>
+                <td>Ajay</td>
+                <td rowspan="4">5000</td>
+            </tr>
+            <tr>
+                <td>02</td>
+                <td>Deepak</td>
+                <!-- <td>5000</td> -->
+            </tr>
+            <tr>
+                <td>03</td>
+                <td>Sumit</td>
+                <!-- <td>5000</td> -->
+            </tr>
+            <tr>
+                <td>04</td>
+                <td>Gaurvendra</td>
+                <!-- <td>5000</td> -->
+
             </tr>
 
         </thead>
